@@ -1,0 +1,73 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #2c3e50;
+}
+
+/* Container dos vídeos */
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilização de cada vídeo */
+.video {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Largura fixa para miniaturas */
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.video img {
+    border-radius: 8px;
+    width: 100%; /* Ajusta a imagem à largura do contêiner */
+}
+
+.video strong {
+    display: block;
+    margin: 10px 0;
+    color: #2980b9;
+}
+
+/* Estilização do link */
+.video a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2980b9;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.video a:hover {
+    background-color: #3498db;
+}
+
+p {
+    text-align: center;
+    color: #e74c3c; /* Cor para mensagens de erro */
+    margin: 20px 0;
+}

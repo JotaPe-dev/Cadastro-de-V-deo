@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav .collapse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    font-size: 20px;
+}
+
+main.videos {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+main.videos .card .card-body {
+    color: white;
+}
+
+main.form {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
